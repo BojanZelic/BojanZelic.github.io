@@ -1,7 +1,7 @@
 title: Bojan Zelic
 name: Bojan Zelic
 email: me@bojanzelic.com
-description: I'm a software developer & security enthusiast in Phoenix, AZ that encounters & resolves software problems & issues.
+description: I'm a software, infrastructure, & security enthusiast in Phoenix, AZ.
 
 remote_theme: jameshamann/jekyll-material-theme
 
@@ -33,46 +33,46 @@ project_three: Dauten.com
 project_three_description: Describe your project!
 project_three_url: https://github.com/jameshamann/jekyll-material-theme
 project_three_icon: hotel
-
-
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
+#
+#
+#project_four: Fourth Project
+#project_four_description: Describe your project!
+#project_four_url: https://github.com/jameshamann/jekyll-material-theme
+#project_four_icon: restaurant
 
 # Skill icons from https://konpa.github.io/devicon/
 
 skills:
-  - name: amazonwebservices
-  - name: angularjs
-  - name: apache
-  - name: bitbucket
-  - name: bootstrap
-  - name: bower
-  - name: csharp
-  - name: css3
-  - name: docker
-  - name: doctrine
-  - name: git
-  - name: grunt
-  - name: gulp
-  - name: html5
-  - name: java
-  - name: javascript
-  - name: laravel
-  - name: less
-  - name: linux
-  - name: mysql
+  - name: AmazonWebServices
+  - name: AngularJS
+  - name: Apache
+  - name: Debian
+  - name: BitBucket
+  - name: Bootstrap
+  - name: Bower
+  - name: Csharp
+  - name: CSS3
+  - name: Docker
+  - name: Doctrine
+  - name: Git
+  - name: Grunt
+  - name: Gulp
+  - name: HTML5
+  - name: Java
+  - name: JavaScript
+  - name: Laravel
+  - name: Less
+  - name: Linux
+  - name: MySql
   - name: nginx
-  - name: nodejs
-  - name: php
-  - name: phpstorm
-  - name: sass
-  - name: ssh
-  - name: symfony
-  - name: ubuntu
-  - name: vim
-  - name: visualstudio
+  - name: NodeJS
+  - name: PHP
+  - name: PHPStorm
+  - name: Sass
+  - name: Symfony
+  - name: Ubuntu
+  - name: Vim
+  - name: VisualStudio
 
 
 icon_size: 50 # font-size of icons in px
@@ -80,8 +80,7 @@ colored: colored # Leave blank for black and white icons
 
 project_button: View Project
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+github: https://github.com/BojanZelic
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: https://bojanzelic.github.io/ # The URL of your site
