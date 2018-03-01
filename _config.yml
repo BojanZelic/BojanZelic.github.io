@@ -79,7 +79,7 @@ github: https://github.com/jameshamann/jekyll-material-theme
 medium: https://medium.com
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
-url: https://BojanZelic.github.io/ # The URL of your site
+url: https://bojanzelic.github.io/ # The URL of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
