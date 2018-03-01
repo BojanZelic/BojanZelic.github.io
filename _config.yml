@@ -65,7 +65,7 @@ project_two_icon: photo_camera
 project_three: Dauten.com & BrilliantBosses.com
 project_three_description: <a href="http://brilliantbosses.com">BrilliantBosses.com</a> is a business advice blog & newsletter. It runs on wordpress utilizing a custom theme implemented in PHP.
   <br /> <br /> <a href="http://dauten.com">Dauten.com</a> is a biography & promotional website. It's built with bootstrap and vanillaJS utilzing static html.
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_url: http://brilliantbosses.com
 project_three_icon: hotel
 #
 #
