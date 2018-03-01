@@ -30,7 +30,110 @@ project_two_icon: photo_camera
 
 
 project_three: Dauten.com
-project_three_description: Describe your project!
+project_three_description: <a href="http://brilliantbosses.com">BrilliantBosses.com</a> is a business advice blog & newsletter. It runs on wordpress utilizing a custom theme implemented in PHP.
+<br /> <br /> In addition... <a href="http://dauten.com">Dauten.com</a> is a biography & promotional website. It's built with bootstrap and vanillaJS utilzing static html.title: Bojan Zelic
+name: Bojan Zelic
+email: me@bojanzelic.com
+description: I'm a software, infrastructure, & security enthusiast in Phoenix, AZ.
+
+remote_theme: jameshamann/jekyll-material-theme
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+# Settings for the porfolio section
+
+portfolio_heading: Portfolio
+portfolio_type: cards #cards or carousel
+
+project_one: "AllCollege.us"
+project_one_description: AllCollege needed a mobile app for their users to communicate with each other on the go. The app offers a news feed, a deals section, and a discussion board. You can talk and communicate with friends, and students at your university. Includes messaging capabilities, take & post photos, push notifications, and a beautiful interface, The AllCollege App offers a great community and seamless integration with the allcollege website. <br /> <br />
+
+ Technologies behind the mobile app include Xamarin and C#. The website utilizes PHP & Joomla on the backend. <br /> <br />
+
+ <a href="https://itunes.apple.com/us/app/allcollege/id957403015?mt=8">AllCollege</a> can be downloaded at the app store and their website can be found at <a href="http://allcollege.us">allcollege.us</a> <br /> <br /><br /> <br /><br /> <br />
+
+project_one_url: https://itunes.apple.com/us/app/allcollege/id957403015?mt=8
+project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+
+project_two: SocialCryptoScore
+project_two_description: SocialCryptoScore analyzes the social influcence of crypto currency and tries to predict the prices by charting social popularity. The application is built in Laravel, and uses various APIs. It uses PHP-fpm and nginx. The deployment process is fully automated utilizing docker and terraform.
+project_two_url: https://socialcryptoscore.com
+project_two_icon: photo_camera
+
+
+project_three: Dauten.com & BrilliantBosses.com
+project_three_description: <a href="http://brilliantbosses.com">BrilliantBosses.com</a> is a business advice blog & newsletter. It runs on wordpress utilizing a custom theme implemented in PHP.
+  <br /> <br /> <a href="http://dauten.com">Dauten.com</a> is a biography & promotional website. It's built with bootstrap and vanillaJS utilzing static html.
+project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_icon: hotel
+#
+#
+#project_four: Fourth Project
+#project_four_description: Describe your project!
+#project_four_url: https://github.com/jameshamann/jekyll-material-theme
+#project_four_icon: restaurant
+
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: AmazonWebServices
+  - name: AngularJS
+  - name: Apache
+  - name: Debian
+  - name: BitBucket
+  - name: Bootstrap
+  - name: Bower
+  - name: Csharp
+  - name: CSS3
+  - name: Docker
+  - name: Doctrine
+  - name: Git
+  - name: Grunt
+  - name: Gulp
+  - name: HTML5
+  - name: Java
+  - name: JavaScript
+  - name: Laravel
+  - name: Less
+  - name: Linux
+  - name: MySql
+  - name: nginx
+  - name: NodeJS
+  - name: PHP
+  - name: PHPStorm
+  - name: Sass
+  - name: Symfony
+  - name: Ubuntu
+  - name: Vim
+  - name: VisualStudio
+
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: View Project
+
+github: https://github.com/BojanZelic
+
+baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
+url: https://bojanzelic.github.io/ # The URL of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
 project_three_url: https://github.com/jameshamann/jekyll-material-theme
 project_three_icon: hotel
 #
