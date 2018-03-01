@@ -112,8 +112,6 @@ GEM
     jekyll-github-metadata (2.9.3)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-material-theme (0.4.0)
-      jekyll (~> 3.5)
     jekyll-mentions (1.2.0)
       activesupport (~> 4.0)
       html-pipeline (~> 2.3)
@@ -236,7 +234,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-material-theme
 
 BUNDLED WITH
    1.16.1
