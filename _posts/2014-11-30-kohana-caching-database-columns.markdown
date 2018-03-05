@@ -2,7 +2,7 @@
 layout: post
 title:  "Kohana - Caching Database Columns"
 date:   2014-11-30 18:11:26 -0700
-categories: kohana php
+categories: php
 ---
 Did you know that an extra query gets run every time you initialize a new model in Kohana?
 
@@ -59,4 +59,4 @@ rm ./application/cache/model_table_columns*
 
 I've recently used this code in a project & found alot of success with it.
 
-Credits: Kohana Forums
+Credits: [Kohana Forums](http://forum.kohanaframework.org/discussion/3949/orm-file-based-column-cache/p1)

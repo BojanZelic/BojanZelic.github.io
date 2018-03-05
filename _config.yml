@@ -57,7 +57,10 @@ project_one_url: https://itunes.apple.com/us/app/allcollege/id957403015?mt=8
 project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
 
 project_two: SocialCryptoScore
-project_two_description: SocialCryptoScore analyzes the social influcence of crypto currency and tries to predict the prices by charting social popularity. The application is built in Laravel, and uses various APIs. It uses PHP-fpm and nginx. The deployment process is fully automated utilizing docker and terraform.
+project_two_description: SocialCryptoScore analyzes the social influcence of crypto currency and tries to predict the prices by charting social popularity. The application is built in Laravel, and uses various APIs (reddit, coinmarketcap, twitter). <br /> <br />
+
+ Backend technologies include PHP-fpm, Nginx, and Amazon RDS. The deployment process is fully automated utilizing docker and terraform. <br /> <br />
+ Frontend technologies include Webpack, ChartJS, Bootstrap, & Datatables
 project_two_url: https://socialcryptoscore.com
 project_two_icon: photo_camera
 
@@ -67,14 +70,6 @@ project_three_description: <a href="http://brilliantbosses.com">BrilliantBosses.
   <br /> <br /> <a href="http://dauten.com">Dauten.com</a> is a biography & promotional website. It's built with bootstrap and vanillaJS utilzing static html.
 project_three_url: http://brilliantbosses.com
 project_three_icon: hotel
-#
-#
-#project_four: Fourth Project
-#project_four_description: Describe your project!
-#project_four_url: https://github.com/jameshamann/jekyll-material-theme
-#project_four_icon: restaurant
-
-# Skill icons from https://konpa.github.io/devicon/
 
 skills:
   - name: AmazonWebServices
@@ -126,80 +121,3 @@ google_analytics_tracking_id: # This looks something like UA-000000000-0 Head ov
 cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
 
 syntax_highlighting: true # include the css for syntax highlighting
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
-#
-#
-#project_four: Fourth Project
-#project_four_description: Describe your project!
-#project_four_url: https://github.com/jameshamann/jekyll-material-theme
-#project_four_icon: restaurant
-
-# Skill icons from https://konpa.github.io/devicon/
-
-skills:
-  - name: AmazonWebServices
-  - name: AngularJS
-  - name: Apache
-  - name: Debian
-  - name: BitBucket
-  - name: Bootstrap
-  - name: Bower
-  - name: Csharp
-  - name: CSS3
-  - name: Docker
-  - name: Doctrine
-  - name: Git
-  - name: Grunt
-  - name: Gulp
-  - name: HTML5
-  - name: Java
-  - name: JavaScript
-  - name: Laravel
-  - name: Less
-  - name: Linux
-  - name: MySql
-  - name: nginx
-  - name: NodeJS
-  - name: PHP
-  - name: PHPStorm
-  - name: Sass
-  - name: Symfony
-  - name: Ubuntu
-  - name: Vim
-  - name: VisualStudio
-
-
-icon_size: 50 # font-size of icons in px
-colored: colored # Leave blank for black and white icons
-
-project_button: View Project
-
-github: https://github.com/BojanZelic
-
-baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
-url: https://bojanzelic.github.io/ # The URL of your site
-
-# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
-tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
-
-cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
-
-syntax_highlighting: true # include the css for syntax highlighting
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
