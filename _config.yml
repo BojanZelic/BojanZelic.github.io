@@ -52,6 +52,8 @@ colored: colored # Leave blank for black and white icons
 project_button: View Project
 
 github: https://github.com/BojanZelic
+linkedin: https://www.linkedin.com/in/bojanzelic
+
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: https://bojanzelic.github.io/ # The URL of your site
