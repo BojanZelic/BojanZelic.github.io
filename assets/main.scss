@@ -34,3 +34,16 @@ $spacing-unit:     30px !default;
   min-height: 150px;
   background-color: #9f9c9c;
 }
+
+.highlighter-rouge div.highlight {
+  padding: 5px;
+}
+
+.post-content ul {
+  list-style-type: initial;
+  padding-left: 2em;
+
+  li {
+    list-style-type: initial;
+  }
+}
