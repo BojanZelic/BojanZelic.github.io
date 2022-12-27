@@ -1,9 +1,13 @@
 ---
-layout: post
 title:  "Kohana - Caching Database Columns"
-date:   2014-11-30 18:11:26 -0700
-categories: php
+last_modified_at:   2014-11-30 18:11:26 -0700
+categories: 
+ - dev
+tags:
+ - php
 ---
+
+
 Did you know that an extra query gets run every time you initialize a new model in Kohana?
 
 It looks like this
