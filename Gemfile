@@ -14,6 +14,7 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
+gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
@@ -23,6 +24,7 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-feed"
 #   gem "jekyll-include-cache"
 #
+
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
