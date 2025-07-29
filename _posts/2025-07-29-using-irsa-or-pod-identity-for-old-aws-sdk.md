@@ -10,11 +10,11 @@ tags:
  - aws
 ---
 
-If you've been working with Kubernetes on AWS for a while, you've probably run into this scenario: you're trying to use modern AWS authentication mechanisms like IRSA (IAM Roles for Service Accounts) or EKS Pod Identity, but your application is stuck with an ancient AWS SDK that doesn't support these features. I myself hit this scenario too many times to count. In the end you end up using many fragremtned solutions (combination of IRSA, EKS Pod Identity, Kube2IAM, and maybe hardcoded credentials)
+If you've been working with Kubernetes on AWS for a while, you've probably run into this scenario: you're trying to use modern AWS authentication mechanisms like IRSA (IAM Roles for Service Accounts) or EKS Pod Identity, but your application is stuck with an ancient AWS SDK that doesn't support these features. I myself hit this scenario too many times to count. In the end, gave up and used many fragremtned solutions (combination of IRSA, EKS Pod Identity, Kube2IAM, and maybe hardcoded credentials) which is simply not maintainable.
 
 ## The Problem: Legacy SDKs Don't Play Nice with Modern Auth
 
-I've hit this wall more times than I care to count. The most recent example? Harbor, the popular container registry. Harbor leverages the distribution project (github.com/distribution/distribution) version 2.8.3, which uses AWS SDK Go version v1.15.11 from way back in 2018. This old SDK has some serious limitations:
+I've hit this wall more times than I care to count. The most recent example? Harbor, the popular container registry. Harbor leverages the [distribution project](github.com/distribution/distribution) version 2.8.3, which uses [AWS SDK Go version v1.15.11](https://github.com/aws/aws-sdk-go/tree/v1.15.11) from way back in 2018. This old SDK has some serious limitations:
 
 - No support for IRSA or EKS Pod Identity
 - Can't override the `AWS_EC2_METADATA_SERVICE_ENDPOINT` environment variable for proxying
@@ -24,7 +24,7 @@ In the past, I've had to fall back to kube2iam for authentication without hardco
 
 ## The Solution: Sidecar Container Magic
 
-After banging my head against this problem repeatedly, I found a clean workaround using a sidecar container. The key insight is leveraging native sidecar container support with an init container that has a restart policy of 'always'.
+After banging my head against this problem repeatedly, There's a clean workaround using a sidecar container. The key insight is leveraging native sidecar container support with an init container that has a restart policy of 'always'.
 
 Here's how it works:
 
