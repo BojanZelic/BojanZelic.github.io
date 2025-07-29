@@ -41,7 +41,7 @@ Here's how it works:
 
 The sidecar approach works by creating a volume mount that both containers can access. In Harbor's case, since the container runs with the `harbor` user, the credentials need to be accessible at `/home/harbor/.aws/credentials`. For other applications, this might be `/root/.aws/credentials` or wherever your application expects to find them.
 
-Here's the actual Kubernetes deployment configuration I use for Harbor:
+Here's the actual Kubernetes deployment configuration example (with irrelevant parts ommited):
 
 ```yaml
 apiVersion: apps/v1
