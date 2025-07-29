@@ -10,7 +10,7 @@ tags:
  - aws
 ---
 
-If you've been working with Kubernetes on AWS for a while, you've probably run into this scenario: you're trying to use modern AWS authentication mechanisms like IRSA (IAM Roles for Service Accounts) or EKS Pod Identity, but your application is stuck with an ancient AWS SDK that doesn't support these features. I myself hit this scenario too many times to count. In the end, gave up and used many fragremtned solutions (combination of IRSA, EKS Pod Identity, Kube2IAM, and maybe hardcoded credentials) which is simply not maintainable.
+If you've been working with Kubernetes on AWS for a while, you've probably run into this scenario: you're trying to use modern AWS authentication mechanisms like IRSA (IAM Roles for Service Accounts) or EKS Pod Identity, but your application is stuck with an ancient AWS SDK that doesn't support these features. I've outlined a solution here allows you to leverage the latest authentication mechanisms with ANY verison of AWS SDK.
 
 ## The Problem: Legacy SDKs Don't Play Nice with Modern Auth
 
