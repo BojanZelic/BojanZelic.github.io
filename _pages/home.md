@@ -9,7 +9,7 @@ Hello 👋
 
 I'm a software, infrastructure, & security enthusiast in Phoenix, AZ.
 
-Currently I'm at <a href="https://www.qualia.com">Qualia</a>
+Currently I'm at <a href="https://www.doordash.com">Doordash</a>
 
 I ❤️ using: 
 * Golang
@@ -22,7 +22,7 @@ Some of the things I'm currently working on:
 
 ### [K8s HomeLab Setup](https://github.com/bojanzelic/home-ops)
 
-This is my home-lab setup powered by Kubernetes, K3s, & managed with Gitlab CI/CD & RenovateBot
+This is my home-lab setup powered by Kubernetes, K3s, & ArgoCD & RenovateBot
 
 ### [Cloudflare Zero Trust Operator](https://github.com/bojanzelic/cloudflare-zero-trust-operator)
 
