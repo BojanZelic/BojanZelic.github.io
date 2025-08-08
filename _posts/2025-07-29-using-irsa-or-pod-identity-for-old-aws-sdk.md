@@ -176,7 +176,10 @@ Or for **EKS Pod Identity**:
       "Principal": {
         "AWS": "arn:aws:iam::YOUR-ACCOUNT-ID:role/YOUR-ROLE-NAME"
       },
-      "Action": "sts:AssumeRole"
+      "Action": [
+        "sts:AssumeRole",
+        "sts:TagSession"
+      ]
     }
   ]
 }
