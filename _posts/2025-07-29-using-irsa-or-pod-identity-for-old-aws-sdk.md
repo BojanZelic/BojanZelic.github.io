@@ -14,7 +14,7 @@ If you've been working with Kubernetes on AWS for a while, you've probably run i
 
 ## The Problem: Legacy SDKs Don't Play Nice with Modern Auth
 
-I've hit this wall more times than I care to count. The most recent example? Harbor, the popular container registry. Harbor leverages the [distribution project](github.com/distribution/distribution) version 2.8.3, which uses [AWS SDK Go version v1.15.11](https://github.com/aws/aws-sdk-go/tree/v1.15.11) from way back in 2018. This old SDK has some serious limitations:
+I've hit this wall more times than I care to count. The most recent example? Harbor, the popular container registry. Harbor leverages the [distribution project](https://github.com/distribution/distribution) version 2.8.3, which uses [AWS SDK Go version v1.15.11](https://github.com/aws/aws-sdk-go/tree/v1.15.11) from way back in 2018. This old SDK has some serious limitations:
 
 - No support for IRSA or EKS Pod Identity
 - Can't override the `AWS_EC2_METADATA_SERVICE_ENDPOINT` environment variable for proxying
